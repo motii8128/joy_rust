@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="joy_rust" exec="joy_rust" name="sub_joy" />
+    <node pkg="joy" exec="joy_node" name="joy_node" />
+</launch>

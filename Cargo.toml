@@ -1,0 +1,13 @@
+[package]
+name = "joy_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+safe_drive = "0.2"
+
+[package.metadata.ros]
+safe_drive_version = "0.2"
+install_to_share = ["launch"]
